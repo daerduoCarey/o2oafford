@@ -75,7 +75,7 @@ During collecting or replaying the data, an OpenGL window will pop out to visual
 Before training our O2O-Afford Perception network, we need to collect a large-scale interaction data from the SAPIEN environment.
 We release a code `exps/gen_offline_data.py` to batch-generate the large-scale data.
 
-Please go to the `exps` directory and run the following to generate data over the small set of data for preview.
+Please go to the `exps` directory and run the following to generate large-scale interaction data.
 
     bash scripts/gen_data-placement.sh
 
@@ -84,6 +84,9 @@ Change to other environments for other tasks.
 This code will call the script `gen_offline_data.py` which will spawn 8 CPUs to parallize the data generation, each of which calls the file `env_placement/collect_data.py` to generate one interaction data.
 
 Running this script will generate three data folders `data/offlinedata-placement-train_cat_train_shape`, `data/offlinedata-placement-train_cat_test_shape` and `offlinedata-placement-test_cat`, each of which contains several subfolders of data interaction and a `data_tuple_list.txt` listing all valid interaction data.
+
+In our training, we generate 48, 163, 88, 18 epochs of training data for placement, fitting, pushing and stacking tasks respectively.
+We empirically find that having enough positive data samples (at least 20,000 for task) are essential for a successful training.
 
 
 ### To train the network
