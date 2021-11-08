@@ -27,12 +27,12 @@ Project Page: https://cs.stanford.edu/~kaichun/o2oafford/
 
 ## Citations
 
-  @inProceedings{mo2021o2oafford,
-      title={{O2O-Afford}: Annotation-Free Large-Scale Object-Object Affordance Learning},
-      author={Mo, Kaichun and Qin, Yuzhe and Xiang, Fanbo and Su, Hao and Guibas, Leonidas},
-      year={2021},
-      booktitle={Conference on Robot Learning (CoRL)}
-  }
+    @inProceedings{mo2021o2oafford,
+        title={{O2O-Afford}: Annotation-Free Large-Scale Object-Object Affordance Learning},
+        author={Mo, Kaichun and Qin, Yuzhe and Xiang, Fanbo and Su, Hao and Guibas, Leonidas},
+        year={2021},
+        booktitle={Conference on Robot Learning (CoRL)}
+    }
 
 ## Code Dependencies
 
