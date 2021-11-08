@@ -4,10 +4,10 @@
 
 To train the models, please first go to the `../data` folder and download the simulation assets/small-data/others.
 
-Please follow the instruction below to generate large-scale data for training models from scratch.
-
 To test over the pretrained models, please also go to the `./logs` folder and download the pretrained checkpoints.
 We also provided a small subset of data under `./data/smalldata-placement`for you to test the pre-trained models.
+
+Please follow the instruction below to generate large-scale data for training models from scratch.
 
 Please fill in [this form](https://docs.google.com/forms/d/e/1FAIpQLSd7_Nqti_La1ROYjpjL8D-lkluIlswu2GJlnv_j3KyCcnMoYw/viewform?usp=sf_link) to download all resources.
 
