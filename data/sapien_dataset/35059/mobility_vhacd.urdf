@@ -1,0 +1,601 @@
+<robot name="partnet_10798ccb7072393e86d53ab0fe94e911">
+	<link name="base" />
+	<link name="link_0">
+		<collision>
+			<origin xyz="0.3800690160374884 0 -0.5280916393456697" />
+			<geometry>
+				<mesh filename="new5_objs/handle-7-0.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.3800690160374884 0 -0.5280916393456697" />
+			<geometry>
+				<mesh filename="new5_objs/handle-7-1.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.3800690160374884 0 -0.5280916393456697" />
+			<geometry>
+				<mesh filename="new5_objs/handle-7-2.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.3800690160374884 0 -0.5280916393456697" />
+			<geometry>
+				<mesh filename="new5_objs/handle-7-3.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.3800690160374884 0 -0.5280916393456697" />
+			<geometry>
+				<mesh filename="new5_objs/cabinet_door_surface-6-0.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.3800690160374884 0 -0.5280916393456697" />
+			<geometry>
+				<mesh filename="new5_objs/cabinet_door_surface-6-1.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.3800690160374884 0 -0.5280916393456697" />
+			<geometry>
+				<mesh filename="new5_objs/cabinet_door_surface-6-2.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.3800690160374884 0 -0.5280916393456697" />
+			<geometry>
+				<mesh filename="new5_objs/cabinet_door_surface-6-3.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.3800690160374884 0 -0.5280916393456697" />
+			<geometry>
+				<mesh filename="new5_objs/cabinet_door_surface-6-4.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.3800690160374884 0 -0.5280916393456697" />
+			<geometry>
+				<mesh filename="new5_objs/cabinet_door_surface-6-5.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.3800690160374884 0 -0.5280916393456697" />
+			<geometry>
+				<mesh filename="new5_objs/cabinet_door_surface-6-6.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.3800690160374884 0 -0.5280916393456697" />
+			<geometry>
+				<mesh filename="new5_objs/cabinet_door_surface-6-7.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.3800690160374884 0 -0.5280916393456697" />
+			<geometry>
+				<mesh filename="new5_objs/cabinet_door_surface-6-8.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.3800690160374884 0 -0.5280916393456697" />
+			<geometry>
+				<mesh filename="new5_objs/cabinet_door_surface-6-9.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.3800690160374884 0 -0.5280916393456697" />
+			<geometry>
+				<mesh filename="new5_objs/cabinet_door_surface-6-10.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.3800690160374884 0 -0.5280916393456697" />
+			<geometry>
+				<mesh filename="new5_objs/cabinet_door_surface-6-11.obj" />
+			</geometry>
+		</collision>
+		<visual name="cabinet_door_surface-6">
+			<origin xyz="0.3800690160374884 0 -0.5280916393456697" />
+			<geometry>
+				<mesh filename="textured_objs/original-25.obj" />
+			</geometry>
+		</visual>
+		<visual name="cabinet_door_surface-6">
+			<origin xyz="0.3800690160374884 0 -0.5280916393456697" />
+			<geometry>
+				<mesh filename="textured_objs/original-29.obj" />
+			</geometry>
+		</visual>
+		<visual name="cabinet_door_surface-6">
+			<origin xyz="0.3800690160374884 0 -0.5280916393456697" />
+			<geometry>
+				<mesh filename="textured_objs/original-27.obj" />
+			</geometry>
+		</visual>
+		<visual name="cabinet_door_surface-6">
+			<origin xyz="0.3800690160374884 0 -0.5280916393456697" />
+			<geometry>
+				<mesh filename="textured_objs/original-26.obj" />
+			</geometry>
+		</visual>
+		<visual name="cabinet_door_surface-6">
+			<origin xyz="0.3800690160374884 0 -0.5280916393456697" />
+			<geometry>
+				<mesh filename="textured_objs/original-28.obj" />
+			</geometry>
+		</visual>
+		<visual name="handle-7">
+			<origin xyz="0.3800690160374884 0 -0.5280916393456697" />
+			<geometry>
+				<mesh filename="textured_objs/original-30.obj" />
+			</geometry>
+		</visual>
+		</link>
+	<joint name="joint_0" type="revolute">
+		<origin xyz="-0.3800690160374884 0 0.5280916393456697" />
+		<axis xyz="0 -1 0" />
+		<child link="link_0" />
+		<parent link="link_1" />
+		<limit lower="-0.0" upper="2.8274333882308134" />
+	</joint>
+	<link name="link_1">
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/bottom_panel-13-0.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/base_side_panel-11-0.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/other_leaf-24-0.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-29-0.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-29-1.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-29-2.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-29-3.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-29-4.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-29-5.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-29-6.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/back_panel-16-0.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/other_leaf-23-0.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_vertical_bar-26-0.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/base_side_panel-12-0.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/vertical_side_panel-15-0.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/vertical_side_panel-15-1.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/vertical_side_panel-15-2.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/vertical_side_panel-15-3.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/vertical_side_panel-15-4.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/vertical_side_panel-15-5.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/vertical_side_panel-15-6.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/vertical_side_panel-15-7.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/vertical_side_panel-15-8.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/vertical_side_panel-15-9.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-27-0.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-27-1.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-27-2.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-27-3.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-27-4.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-27-5.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-27-6.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-27-7.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/base_side_panel-10-0.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/base_side_panel-9-0.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/other_leaf-22-0.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_vertical_bar-25-0.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-28-0.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-28-1.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-28-2.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-28-3.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-28-4.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/other_leaf-21-0.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/vertical_side_panel-14-0.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/vertical_side_panel-14-1.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/vertical_side_panel-14-2.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/vertical_side_panel-14-3.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/vertical_side_panel-14-4.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/vertical_side_panel-14-5.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/vertical_side_panel-14-6.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/vertical_side_panel-14-7.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/vertical_side_panel-14-8.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/vertical_side_panel-14-9.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/shelf-4-0.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/shelf-4-1.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/shelf-4-2.obj" />
+			</geometry>
+		</collision>
+		<visual name="shelf-4">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-21.obj" />
+			</geometry>
+		</visual>
+		<visual name="vertical_side_panel-14">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-17.obj" />
+			</geometry>
+		</visual>
+		<visual name="vertical_side_panel-14">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-16.obj" />
+			</geometry>
+		</visual>
+		<visual name="vertical_side_panel-15">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-8.obj" />
+			</geometry>
+		</visual>
+		<visual name="vertical_side_panel-15">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-7.obj" />
+			</geometry>
+		</visual>
+		<visual name="back_panel-16">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-13.obj" />
+			</geometry>
+		</visual>
+		<visual name="other_leaf-24">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-20.obj" />
+			</geometry>
+		</visual>
+		<visual name="other_leaf-23">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-12.obj" />
+			</geometry>
+		</visual>
+		<visual name="other_leaf-22">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-11.obj" />
+			</geometry>
+		</visual>
+		<visual name="other_leaf-21">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-10.obj" />
+			</geometry>
+		</visual>
+		<visual name="frame_vertical_bar-25">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-2.obj" />
+			</geometry>
+		</visual>
+		<visual name="frame_vertical_bar-26">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-4.obj" />
+			</geometry>
+		</visual>
+		<visual name="frame_horizontal_bar-27">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-5.obj" />
+			</geometry>
+		</visual>
+		<visual name="frame_horizontal_bar-28">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-23.obj" />
+			</geometry>
+		</visual>
+		<visual name="frame_horizontal_bar-29">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-3.obj" />
+			</geometry>
+		</visual>
+		<visual name="base_side_panel-9">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-14.obj" />
+			</geometry>
+		</visual>
+		<visual name="base_side_panel-10">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-9.obj" />
+			</geometry>
+		</visual>
+		<visual name="base_side_panel-11">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-19.obj" />
+			</geometry>
+		</visual>
+		<visual name="base_side_panel-12">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-18.obj" />
+			</geometry>
+		</visual>
+		<visual name="bottom_panel-13">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-22.obj" />
+			</geometry>
+		</visual>
+		</link>
+	<joint name="joint_1" type="fixed">
+		<origin rpy="1.570796326794897 0 -1.570796326794897" xyz="0 0 0" />
+		<child link="link_1" />
+		<parent link="base" />
+	</joint>
+</robot>

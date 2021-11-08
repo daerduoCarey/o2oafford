@@ -1,0 +1,98 @@
+solid AssimpScene
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.365319 0.146283 -0.541084
+  vertex -0.364319 0.146283 -0.541084
+  vertex -0.364319 -0.518768 -0.541084
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.365319 0.146283 -0.541084
+  vertex -0.364319 -0.518768 -0.541084
+  vertex -0.365319 -0.518768 -0.541084
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.365316 -0.517602 0.485669
+  vertex -0.365319 -0.518768 -0.541084
+  vertex -0.364319 -0.518768 -0.541084
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.365316 -0.517602 0.485669
+  vertex -0.364319 -0.518768 -0.541084
+  vertex -0.364316 -0.517602 0.485669
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.365316 -0.517602 0.485669
+  vertex -0.365316 0.145117 0.485669
+  vertex -0.365319 0.146283 -0.541084
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.365316 -0.517602 0.485669
+  vertex -0.365319 0.146283 -0.541084
+  vertex -0.365319 -0.518768 -0.541084
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.364316 0.145117 0.485669
+  vertex -0.365316 0.145117 0.485669
+  vertex -0.365316 -0.517602 0.485669
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.364316 0.145117 0.485669
+  vertex -0.365316 -0.517602 0.485669
+  vertex -0.364316 -0.517602 0.485669
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.364316 0.145117 0.485669
+  vertex -0.364316 -0.517602 0.485669
+  vertex -0.364319 -0.518768 -0.541084
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.364316 0.145117 0.485669
+  vertex -0.364319 -0.518768 -0.541084
+  vertex -0.364319 0.146283 -0.541084
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.364316 0.145117 0.485669
+  vertex -0.364319 0.146283 -0.541084
+  vertex -0.365319 0.146283 -0.541084
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.364316 0.145117 0.485669
+  vertex -0.365319 0.146283 -0.541084
+  vertex -0.365316 0.145117 0.485669
+  endloop
+ endfacet
+
+endsolid AssimpScene

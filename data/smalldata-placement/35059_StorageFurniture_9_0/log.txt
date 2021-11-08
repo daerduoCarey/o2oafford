@@ -1,0 +1,7 @@
+[env::load_object] loaded: {'name': 'table', 'shape_id': '35059', 'fix_root_link': True, 'state': 'random-closed-middle', 'init_x': 0, 'init_y': 0, 'init_z': 0, 'init_quat': [1, 0, 0, 0], 'joint_angles': [-0.0]}
+[env::load_object] loaded: {'name': 'act-0-200516', 'shape_id': '200516', 'fix_root_link': False, 'state': 'locked', 'init_z': 0.750089013431932, 'init_x': 0.5057907600857434, 'init_y': 0.20703246637615935, 'init_scale': 0.18339808404162966, 'init_quat': [0.9829046507994557, 0.0, 0.0, 0.1841153101640387], 'joint_angles': []}
+[env::load_object] loaded: {'name': 'act-1-200516', 'shape_id': '200516', 'fix_root_link': False, 'state': 'locked', 'init_z': 0.8051955032417415, 'init_x': 0.09254099991064768, 'init_y': 0.3774712286274684, 'init_scale': 0.09443604448417124, 'init_quat': [0.9504829362249959, 0.0, 0.0, 0.310776749363768], 'joint_angles': []}
+[env::load_object] loaded: {'name': 'act-2-200516', 'shape_id': '200516', 'fix_root_link': False, 'state': 'locked', 'init_z': 0.8052985548531928, 'init_x': -0.5082958890407979, 'init_y': 0.10809834190483247, 'init_scale': 0.16740474447754833, 'init_quat': [0.3967648418339451, 0.0, 0.0, 0.9179202908120533], 'joint_angles': []}
+[env::load_object] loaded: {'name': 'object', 'shape_id': '200516', 'fix_root_link': False, 'state': 'locked', 'init_z': 0.7722729927747083, 'init_x': 0.45137320718902707, 'init_y': -0.3096056936010121, 'init_scale': 0.274048626329901, 'init_quat': [-0.12815889201846725, 0.0, 0.0, 0.9917536480379585], 'joint_angles': []}
+[FAIL] collision at start!
+

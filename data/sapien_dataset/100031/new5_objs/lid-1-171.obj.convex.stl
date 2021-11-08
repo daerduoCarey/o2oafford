@@ -1,0 +1,178 @@
+solid AssimpScene
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.247361 0.39661 -0.243778
+  vertex -0.247361 0.398714 -0.30261
+  vertex -0.194786 0.398714 -0.329961
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.247361 0.39661 -0.243778
+  vertex -0.194786 0.398714 -0.329961
+  vertex -0.196891 0.39661 -0.275275
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.194786 0.411331 -0.210118
+  vertex -0.247361 0.411331 -0.163839
+  vertex -0.196891 0.39661 -0.275275
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.194786 0.411331 -0.210118
+  vertex -0.196891 0.39661 -0.275275
+  vertex -0.194786 0.398714 -0.329961
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.194786 0.411331 -0.210118
+  vertex -0.194786 0.398714 -0.329961
+  vertex -0.193364 0.418209 -0.23473
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.247361 0.39661 -0.243778
+  vertex -0.196891 0.39661 -0.275275
+  vertex -0.247361 0.411331 -0.163839
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.247361 0.39661 -0.243778
+  vertex -0.247361 0.411331 -0.163839
+  vertex -0.247361 0.41764 -0.212231
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.247361 0.39661 -0.243778
+  vertex -0.247361 0.41764 -0.212231
+  vertex -0.247361 0.398714 -0.30261
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.209509 0.415536 -0.195401
+  vertex -0.247361 0.411331 -0.163839
+  vertex -0.194786 0.411331 -0.210118
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.247105 0.418444 -0.189206
+  vertex -0.247361 0.411331 -0.163839
+  vertex -0.209509 0.415536 -0.195401
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.247105 0.418444 -0.189206
+  vertex -0.209509 0.415536 -0.195401
+  vertex -0.194786 0.415536 -0.210118
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.247105 0.418444 -0.189206
+  vertex -0.194786 0.415536 -0.210118
+  vertex -0.193364 0.418209 -0.23473
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.247105 0.418444 -0.189206
+  vertex -0.193364 0.418209 -0.23473
+  vertex -0.247361 0.41764 -0.212231
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.247105 0.418444 -0.189206
+  vertex -0.247361 0.41764 -0.212231
+  vertex -0.247361 0.411331 -0.163839
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.194786 0.415536 -0.210118
+  vertex -0.209509 0.415536 -0.195401
+  vertex -0.194786 0.411331 -0.210118
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.194786 0.415536 -0.210118
+  vertex -0.194786 0.411331 -0.210118
+  vertex -0.193364 0.418209 -0.23473
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.196891 0.413433 -0.27108
+  vertex -0.247361 0.41764 -0.212231
+  vertex -0.193364 0.418209 -0.23473
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.196891 0.413433 -0.27108
+  vertex -0.193364 0.418209 -0.23473
+  vertex -0.194786 0.398714 -0.329961
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.243151 0.407125 -0.275275
+  vertex -0.247361 0.41764 -0.212231
+  vertex -0.196891 0.413433 -0.27108
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.196891 0.413433 -0.27108
+  vertex -0.194786 0.398714 -0.329961
+  vertex -0.247361 0.398714 -0.30261
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.196891 0.413433 -0.27108
+  vertex -0.247361 0.398714 -0.30261
+  vertex -0.243151 0.407125 -0.275275
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.243151 0.407125 -0.275275
+  vertex -0.247361 0.398714 -0.30261
+  vertex -0.247361 0.41764 -0.212231
+  endloop
+ endfacet
+
+endsolid AssimpScene

@@ -1,0 +1,5 @@
+Can 2 1
+Kettle 1 1
+StorageFurniture 2 1
+Microwave 1 1
+Table 1 1

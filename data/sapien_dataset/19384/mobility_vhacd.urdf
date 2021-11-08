@@ -1,0 +1,2222 @@
+<robot name="partnet_174832b73cd6d91c9856fa70a578baeb">
+	<link name="base" />
+	<link name="link_0">
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/bar-26-0.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/bar-26-1.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/bar-26-2.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/bar-25-0.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/bar-25-1.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/bar-23-0.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/bar-23-1.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/bar-23-2.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/glass-27-0.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/glass-27-1.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/glass-27-2.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/glass-27-3.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/glass-27-4.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/glass-27-5.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/bar-24-0.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/bar-24-1.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/bar-24-2.obj" />
+			</geometry>
+		</collision>
+		<visual name="glass-27">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/new-8.obj" />
+			</geometry>
+		</visual>
+		<visual name="bar-23">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/new-0.obj" />
+			</geometry>
+		</visual>
+		<visual name="bar-23">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/new-7.obj" />
+			</geometry>
+		</visual>
+		<visual name="bar-24">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/new-3.obj" />
+			</geometry>
+		</visual>
+		<visual name="bar-24">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/new-6.obj" />
+			</geometry>
+		</visual>
+		<visual name="bar-25">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/new-2.obj" />
+			</geometry>
+		</visual>
+		<visual name="bar-25">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/new-5.obj" />
+			</geometry>
+		</visual>
+		<visual name="bar-26">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/new-1.obj" />
+			</geometry>
+		</visual>
+		<visual name="bar-26">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/new-4.obj" />
+			</geometry>
+		</visual>
+		</link>
+	<joint name="joint_0" type="fixed">
+		<origin rpy="1.570796326794897 0 -1.570796326794897" xyz="0 0 0" />
+		<child link="link_0" />
+		<parent link="base" />
+	</joint>
+	<link name="link_1">
+		<collision>
+			<origin xyz="-0.797385 0 -0.45439450000000003" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-15-0.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.797385 0 -0.45439450000000003" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-15-1.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.797385 0 -0.45439450000000003" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-15-2.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.797385 0 -0.45439450000000003" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-15-3.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.797385 0 -0.45439450000000003" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-15-4.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.797385 0 -0.45439450000000003" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-15-5.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.797385 0 -0.45439450000000003" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-15-6.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.797385 0 -0.45439450000000003" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-15-7.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.797385 0 -0.45439450000000003" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-15-8.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.797385 0 -0.45439450000000003" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-15-9.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.797385 0 -0.45439450000000003" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-15-10.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.797385 0 -0.45439450000000003" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-15-11.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.797385 0 -0.45439450000000003" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-15-12.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.797385 0 -0.45439450000000003" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-15-13.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.797385 0 -0.45439450000000003" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-15-14.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.797385 0 -0.45439450000000003" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-15-15.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.797385 0 -0.45439450000000003" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-15-16.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.797385 0 -0.45439450000000003" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-15-17.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.797385 0 -0.45439450000000003" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-15-18.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.797385 0 -0.45439450000000003" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-15-19.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.797385 0 -0.45439450000000003" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-15-20.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.797385 0 -0.45439450000000003" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-15-21.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.797385 0 -0.45439450000000003" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-15-22.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.797385 0 -0.45439450000000003" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-15-23.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.797385 0 -0.45439450000000003" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-15-24.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.797385 0 -0.45439450000000003" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-15-25.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.797385 0 -0.45439450000000003" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-15-26.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.797385 0 -0.45439450000000003" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-15-27.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.797385 0 -0.45439450000000003" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-15-28.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.797385 0 -0.45439450000000003" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-15-29.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.797385 0 -0.45439450000000003" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-15-30.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.797385 0 -0.45439450000000003" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-15-31.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.797385 0 -0.45439450000000003" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-15-32.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.797385 0 -0.45439450000000003" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-15-33.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.797385 0 -0.45439450000000003" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-15-34.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.797385 0 -0.45439450000000003" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-15-35.obj" />
+			</geometry>
+		</collision>
+		<visual name="caster_mounting_plate-15">
+			<origin xyz="-0.797385 0 -0.45439450000000003" />
+			<geometry>
+				<mesh filename="textured_objs/original-19.obj" />
+			</geometry>
+		</visual>
+		<visual name="caster_mounting_plate-15">
+			<origin xyz="-0.797385 0 -0.45439450000000003" />
+			<geometry>
+				<mesh filename="textured_objs/original-14.obj" />
+			</geometry>
+		</visual>
+		<visual name="caster_mounting_plate-15">
+			<origin xyz="-0.797385 0 -0.45439450000000003" />
+			<geometry>
+				<mesh filename="textured_objs/original-15.obj" />
+			</geometry>
+		</visual>
+		<visual name="caster_mounting_plate-15">
+			<origin xyz="-0.797385 0 -0.45439450000000003" />
+			<geometry>
+				<mesh filename="textured_objs/original-17.obj" />
+			</geometry>
+		</visual>
+		<visual name="caster_mounting_plate-15">
+			<origin xyz="-0.797385 0 -0.45439450000000003" />
+			<geometry>
+				<mesh filename="textured_objs/original-18.obj" />
+			</geometry>
+		</visual>
+		<visual name="caster_mounting_plate-15">
+			<origin xyz="-0.797385 0 -0.45439450000000003" />
+			<geometry>
+				<mesh filename="textured_objs/original-20.obj" />
+			</geometry>
+		</visual>
+		</link>
+	<joint name="joint_1" type="continuous">
+		<origin xyz="0.797385 0 0.45439450000000003" />
+		<axis xyz="0 1 0" />
+		<child link="link_1" />
+		<parent link="link_0" />
+	</joint>
+	<link name="link_2">
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-16-0.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-16-1.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-16-2.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-16-3.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-16-4.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-16-5.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-16-6.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-16-7.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-16-8.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-16-9.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-16-10.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-16-11.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-16-12.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-16-13.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-16-14.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-16-15.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-16-16.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-16-17.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-16-18.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-16-19.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-16-20.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-16-21.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-16-22.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-16-23.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-16-24.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-16-25.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-16-26.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-16-27.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-16-28.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-16-29.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-16-30.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-16-31.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-16-32.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-16-33.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-16-34.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-16-35.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-16-36.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-16-37.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-16-38.obj" />
+			</geometry>
+		</collision>
+	<visual name="wheel-16">
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="textured_objs/original-16.obj" />
+			</geometry>
+		</visual>
+		</link>
+	<joint name="joint_2" type="continuous">
+		<origin xyz="-0.797385 -0.18953 -0.04480350000000005" />
+		<axis xyz="1 0 0" />
+		<child link="link_2" />
+		<parent link="link_1" />
+	</joint>
+	<link name="link_3">
+		<collision>
+			<origin xyz="0.7378236123256089 0 -0.46174722434282295" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-13-0.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7378236123256089 0 -0.46174722434282295" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-13-1.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7378236123256089 0 -0.46174722434282295" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-13-2.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7378236123256089 0 -0.46174722434282295" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-13-3.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7378236123256089 0 -0.46174722434282295" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-13-4.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7378236123256089 0 -0.46174722434282295" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-13-5.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7378236123256089 0 -0.46174722434282295" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-13-6.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7378236123256089 0 -0.46174722434282295" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-13-7.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7378236123256089 0 -0.46174722434282295" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-13-8.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7378236123256089 0 -0.46174722434282295" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-13-9.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7378236123256089 0 -0.46174722434282295" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-13-10.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7378236123256089 0 -0.46174722434282295" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-13-11.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7378236123256089 0 -0.46174722434282295" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-13-12.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7378236123256089 0 -0.46174722434282295" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-13-13.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7378236123256089 0 -0.46174722434282295" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-13-14.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7378236123256089 0 -0.46174722434282295" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-13-15.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7378236123256089 0 -0.46174722434282295" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-13-16.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7378236123256089 0 -0.46174722434282295" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-13-17.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7378236123256089 0 -0.46174722434282295" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-13-18.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7378236123256089 0 -0.46174722434282295" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-13-19.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7378236123256089 0 -0.46174722434282295" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-13-20.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7378236123256089 0 -0.46174722434282295" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-13-21.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7378236123256089 0 -0.46174722434282295" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-13-22.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7378236123256089 0 -0.46174722434282295" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-13-23.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7378236123256089 0 -0.46174722434282295" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-13-24.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7378236123256089 0 -0.46174722434282295" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-13-25.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7378236123256089 0 -0.46174722434282295" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-13-26.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7378236123256089 0 -0.46174722434282295" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-13-27.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7378236123256089 0 -0.46174722434282295" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-13-28.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7378236123256089 0 -0.46174722434282295" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-13-29.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7378236123256089 0 -0.46174722434282295" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-13-30.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7378236123256089 0 -0.46174722434282295" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-13-31.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7378236123256089 0 -0.46174722434282295" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-13-32.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7378236123256089 0 -0.46174722434282295" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-13-33.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7378236123256089 0 -0.46174722434282295" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-13-34.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7378236123256089 0 -0.46174722434282295" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-13-35.obj" />
+			</geometry>
+		</collision>
+		<visual name="caster_mounting_plate-13">
+			<origin xyz="0.7378236123256089 0 -0.46174722434282295" />
+			<geometry>
+				<mesh filename="textured_objs/original-27.obj" />
+			</geometry>
+		</visual>
+		<visual name="caster_mounting_plate-13">
+			<origin xyz="0.7378236123256089 0 -0.46174722434282295" />
+			<geometry>
+				<mesh filename="textured_objs/original-31.obj" />
+			</geometry>
+		</visual>
+		<visual name="caster_mounting_plate-13">
+			<origin xyz="0.7378236123256089 0 -0.46174722434282295" />
+			<geometry>
+				<mesh filename="textured_objs/original-26.obj" />
+			</geometry>
+		</visual>
+		<visual name="caster_mounting_plate-13">
+			<origin xyz="0.7378236123256089 0 -0.46174722434282295" />
+			<geometry>
+				<mesh filename="textured_objs/original-30.obj" />
+			</geometry>
+		</visual>
+		<visual name="caster_mounting_plate-13">
+			<origin xyz="0.7378236123256089 0 -0.46174722434282295" />
+			<geometry>
+				<mesh filename="textured_objs/original-29.obj" />
+			</geometry>
+		</visual>
+		<visual name="caster_mounting_plate-13">
+			<origin xyz="0.7378236123256089 0 -0.46174722434282295" />
+			<geometry>
+				<mesh filename="textured_objs/original-32.obj" />
+			</geometry>
+		</visual>
+		</link>
+	<joint name="joint_3" type="continuous">
+		<origin xyz="-0.7378236123256089 0 0.46174722434282295" />
+		<axis xyz="0 1 0" />
+		<child link="link_3" />
+		<parent link="link_0" />
+	</joint>
+	<link name="link_4">
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-14-0.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-14-1.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-14-2.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-14-3.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-14-4.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-14-5.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-14-6.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-14-7.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-14-8.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-14-9.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-14-10.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-14-11.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-14-12.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-14-13.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-14-14.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-14-15.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-14-16.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-14-17.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-14-18.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-14-19.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-14-20.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-14-21.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-14-22.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-14-23.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-14-24.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-14-25.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-14-26.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-14-27.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-14-28.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-14-29.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-14-30.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-14-31.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-14-32.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-14-33.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-14-34.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-14-35.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-14-36.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-14-37.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-14-38.obj" />
+			</geometry>
+		</collision>
+	<visual name="wheel-14">
+			<origin xyz="0 0.18953 -0.409591" />
+			<geometry>
+				<mesh filename="textured_objs/original-28.obj" />
+			</geometry>
+		</visual>
+		</link>
+	<joint name="joint_4" type="continuous">
+		<origin xyz="0.7378236123256089 -0.18953 -0.052156224342822965" />
+		<axis xyz="-1 0 0" />
+		<child link="link_4" />
+		<parent link="link_3" />
+	</joint>
+	<link name="link_5">
+		<collision>
+			<origin xyz="0.7353071140952109 0 0.4420390869193078" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-11-0.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7353071140952109 0 0.4420390869193078" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-11-1.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7353071140952109 0 0.4420390869193078" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-11-2.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7353071140952109 0 0.4420390869193078" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-11-3.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7353071140952109 0 0.4420390869193078" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-11-4.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7353071140952109 0 0.4420390869193078" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-11-5.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7353071140952109 0 0.4420390869193078" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-11-6.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7353071140952109 0 0.4420390869193078" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-11-7.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7353071140952109 0 0.4420390869193078" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-11-8.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7353071140952109 0 0.4420390869193078" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-11-9.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7353071140952109 0 0.4420390869193078" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-11-10.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7353071140952109 0 0.4420390869193078" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-11-11.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7353071140952109 0 0.4420390869193078" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-11-12.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7353071140952109 0 0.4420390869193078" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-11-13.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7353071140952109 0 0.4420390869193078" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-11-14.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7353071140952109 0 0.4420390869193078" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-11-15.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7353071140952109 0 0.4420390869193078" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-11-16.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7353071140952109 0 0.4420390869193078" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-11-17.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7353071140952109 0 0.4420390869193078" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-11-18.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7353071140952109 0 0.4420390869193078" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-11-19.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7353071140952109 0 0.4420390869193078" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-11-20.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7353071140952109 0 0.4420390869193078" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-11-21.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7353071140952109 0 0.4420390869193078" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-11-22.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7353071140952109 0 0.4420390869193078" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-11-23.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7353071140952109 0 0.4420390869193078" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-11-24.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7353071140952109 0 0.4420390869193078" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-11-25.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7353071140952109 0 0.4420390869193078" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-11-26.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7353071140952109 0 0.4420390869193078" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-11-27.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7353071140952109 0 0.4420390869193078" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-11-28.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7353071140952109 0 0.4420390869193078" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-11-29.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7353071140952109 0 0.4420390869193078" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-11-30.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7353071140952109 0 0.4420390869193078" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-11-31.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7353071140952109 0 0.4420390869193078" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-11-32.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7353071140952109 0 0.4420390869193078" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-11-33.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7353071140952109 0 0.4420390869193078" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-11-34.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.7353071140952109 0 0.4420390869193078" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-11-35.obj" />
+			</geometry>
+		</collision>
+		<visual name="caster_mounting_plate-11">
+			<origin xyz="0.7353071140952109 0 0.4420390869193078" />
+			<geometry>
+				<mesh filename="textured_objs/original-38.obj" />
+			</geometry>
+		</visual>
+		<visual name="caster_mounting_plate-11">
+			<origin xyz="0.7353071140952109 0 0.4420390869193078" />
+			<geometry>
+				<mesh filename="textured_objs/original-43.obj" />
+			</geometry>
+		</visual>
+		<visual name="caster_mounting_plate-11">
+			<origin xyz="0.7353071140952109 0 0.4420390869193078" />
+			<geometry>
+				<mesh filename="textured_objs/original-41.obj" />
+			</geometry>
+		</visual>
+		<visual name="caster_mounting_plate-11">
+			<origin xyz="0.7353071140952109 0 0.4420390869193078" />
+			<geometry>
+				<mesh filename="textured_objs/original-42.obj" />
+			</geometry>
+		</visual>
+		<visual name="caster_mounting_plate-11">
+			<origin xyz="0.7353071140952109 0 0.4420390869193078" />
+			<geometry>
+				<mesh filename="textured_objs/original-44.obj" />
+			</geometry>
+		</visual>
+		<visual name="caster_mounting_plate-11">
+			<origin xyz="0.7353071140952109 0 0.4420390869193078" />
+			<geometry>
+				<mesh filename="textured_objs/original-39.obj" />
+			</geometry>
+		</visual>
+		</link>
+	<joint name="joint_5" type="continuous">
+		<origin xyz="-0.7353071140952109 0 -0.4420390869193078" />
+		<axis xyz="0 1 0" />
+		<child link="link_5" />
+		<parent link="link_0" />
+	</joint>
+	<link name="link_6">
+		<collision>
+			<origin xyz="0 0.18953 0.485552" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-12-0.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.485552" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-12-1.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.485552" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-12-2.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.485552" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-12-3.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.485552" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-12-4.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.485552" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-12-5.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.485552" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-12-6.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.485552" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-12-7.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.485552" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-12-8.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.485552" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-12-9.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.485552" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-12-10.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.485552" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-12-11.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.485552" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-12-12.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.485552" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-12-13.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.485552" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-12-14.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.485552" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-12-15.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.485552" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-12-16.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.485552" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-12-17.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.485552" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-12-18.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.485552" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-12-19.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.485552" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-12-20.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.485552" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-12-21.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.485552" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-12-22.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.485552" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-12-23.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.485552" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-12-24.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.485552" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-12-25.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.485552" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-12-26.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.485552" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-12-27.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.485552" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-12-28.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.485552" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-12-29.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.485552" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-12-30.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.485552" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-12-31.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.485552" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-12-32.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.485552" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-12-33.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.485552" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-12-34.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.485552" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-12-35.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.485552" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-12-36.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.485552" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-12-37.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.485552" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-12-38.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.485552" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-12-39.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.485552" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-12-40.obj" />
+			</geometry>
+		</collision>
+	<visual name="wheel-12">
+			<origin xyz="0 0.18953 0.485552" />
+			<geometry>
+				<mesh filename="textured_objs/original-40.obj" />
+			</geometry>
+		</visual>
+		</link>
+	<joint name="joint_6" type="continuous">
+		<origin xyz="0.7353071140952109 -0.18953 -0.04351291308069216" />
+		<axis xyz="-1 0 0" />
+		<child link="link_6" />
+		<parent link="link_5" />
+	</joint>
+	<link name="link_7">
+		<collision>
+			<origin xyz="-0.7927839366774556 0 0.4515961952848435" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-9-0.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.7927839366774556 0 0.4515961952848435" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-9-1.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.7927839366774556 0 0.4515961952848435" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-9-2.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.7927839366774556 0 0.4515961952848435" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-9-3.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.7927839366774556 0 0.4515961952848435" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-9-4.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.7927839366774556 0 0.4515961952848435" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-9-5.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.7927839366774556 0 0.4515961952848435" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-9-6.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.7927839366774556 0 0.4515961952848435" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-9-7.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.7927839366774556 0 0.4515961952848435" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-9-8.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.7927839366774556 0 0.4515961952848435" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-9-9.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.7927839366774556 0 0.4515961952848435" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-9-10.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.7927839366774556 0 0.4515961952848435" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-9-11.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.7927839366774556 0 0.4515961952848435" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-9-12.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.7927839366774556 0 0.4515961952848435" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-9-13.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.7927839366774556 0 0.4515961952848435" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-9-14.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.7927839366774556 0 0.4515961952848435" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-9-15.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.7927839366774556 0 0.4515961952848435" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-9-16.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.7927839366774556 0 0.4515961952848435" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-9-17.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.7927839366774556 0 0.4515961952848435" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-9-18.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.7927839366774556 0 0.4515961952848435" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-9-19.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.7927839366774556 0 0.4515961952848435" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-9-20.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.7927839366774556 0 0.4515961952848435" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-9-21.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.7927839366774556 0 0.4515961952848435" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-9-22.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.7927839366774556 0 0.4515961952848435" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-9-23.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.7927839366774556 0 0.4515961952848435" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-9-24.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.7927839366774556 0 0.4515961952848435" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-9-25.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.7927839366774556 0 0.4515961952848435" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-9-26.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.7927839366774556 0 0.4515961952848435" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-9-27.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.7927839366774556 0 0.4515961952848435" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-9-28.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.7927839366774556 0 0.4515961952848435" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-9-29.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.7927839366774556 0 0.4515961952848435" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-9-30.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.7927839366774556 0 0.4515961952848435" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-9-31.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.7927839366774556 0 0.4515961952848435" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-9-32.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.7927839366774556 0 0.4515961952848435" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-9-33.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.7927839366774556 0 0.4515961952848435" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-9-34.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.7927839366774556 0 0.4515961952848435" />
+			<geometry>
+				<mesh filename="new5_objs/caster_mounting_plate-9-35.obj" />
+			</geometry>
+		</collision>
+		<visual name="caster_mounting_plate-9">
+			<origin xyz="-0.7927839366774556 0 0.4515961952848435" />
+			<geometry>
+				<mesh filename="textured_objs/original-5.obj" />
+			</geometry>
+		</visual>
+		<visual name="caster_mounting_plate-9">
+			<origin xyz="-0.7927839366774556 0 0.4515961952848435" />
+			<geometry>
+				<mesh filename="textured_objs/original-6.obj" />
+			</geometry>
+		</visual>
+		<visual name="caster_mounting_plate-9">
+			<origin xyz="-0.7927839366774556 0 0.4515961952848435" />
+			<geometry>
+				<mesh filename="textured_objs/original-7.obj" />
+			</geometry>
+		</visual>
+		<visual name="caster_mounting_plate-9">
+			<origin xyz="-0.7927839366774556 0 0.4515961952848435" />
+			<geometry>
+				<mesh filename="textured_objs/original-3.obj" />
+			</geometry>
+		</visual>
+		<visual name="caster_mounting_plate-9">
+			<origin xyz="-0.7927839366774556 0 0.4515961952848435" />
+			<geometry>
+				<mesh filename="textured_objs/original-2.obj" />
+			</geometry>
+		</visual>
+		<visual name="caster_mounting_plate-9">
+			<origin xyz="-0.7927839366774556 0 0.4515961952848435" />
+			<geometry>
+				<mesh filename="textured_objs/original-8.obj" />
+			</geometry>
+		</visual>
+		</link>
+	<joint name="joint_7" type="continuous">
+		<origin xyz="0.7927839366774556 0 -0.4515961952848435" />
+		<axis xyz="0 1 0" />
+		<child link="link_7" />
+		<parent link="link_0" />
+	</joint>
+	<link name="link_8">
+		<collision>
+			<origin xyz="0 0.18953 0.4989015" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-10-0.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.4989015" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-10-1.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.4989015" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-10-2.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.4989015" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-10-3.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.4989015" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-10-4.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.4989015" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-10-5.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.4989015" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-10-6.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.4989015" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-10-7.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.4989015" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-10-8.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.4989015" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-10-9.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.4989015" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-10-10.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.4989015" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-10-11.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.4989015" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-10-12.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.4989015" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-10-13.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.4989015" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-10-14.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.4989015" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-10-15.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.4989015" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-10-16.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.4989015" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-10-17.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.4989015" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-10-18.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.4989015" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-10-19.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.4989015" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-10-20.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.4989015" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-10-21.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.4989015" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-10-22.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.4989015" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-10-23.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.4989015" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-10-24.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.4989015" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-10-25.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.4989015" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-10-26.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.4989015" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-10-27.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.4989015" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-10-28.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.4989015" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-10-29.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.4989015" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-10-30.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.4989015" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-10-31.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.4989015" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-10-32.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.4989015" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-10-33.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.4989015" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-10-34.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.4989015" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-10-35.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.4989015" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-10-36.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.4989015" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-10-37.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.4989015" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-10-38.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.4989015" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-10-39.obj" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0.18953 0.4989015" />
+			<geometry>
+				<mesh filename="new5_objs/wheel-10-40.obj" />
+			</geometry>
+		</collision>
+	<visual name="wheel-10">
+			<origin xyz="0 0.18953 0.4989015" />
+			<geometry>
+				<mesh filename="textured_objs/original-4.obj" />
+			</geometry>
+		</visual>
+		</link>
+	<joint name="joint_8" type="continuous">
+		<origin xyz="-0.7927839366774556 -0.18953 -0.04730530471515648" />
+		<axis xyz="-1 0 0" />
+		<child link="link_8" />
+		<parent link="link_7" />
+	</joint>
+</robot>

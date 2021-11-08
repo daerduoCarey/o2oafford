@@ -1,0 +1,178 @@
+solid AssimpScene
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.625955 -0.199589 0.12867
+  vertex -0.591337 -0.198993 0.008675
+  vertex -0.582792 -0.198993 0.008675
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.625955 -0.199589 0.12867
+  vertex -0.582792 -0.198993 0.008675
+  vertex -0.54838 -0.199256 0.218885
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.54838 -0.199256 0.218885
+  vertex -0.582792 -0.07487 0.218441
+  vertex -0.625846 -0.130479 0.219151
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.606459 -0.193197 0.208646
+  vertex -0.54838 -0.199256 0.218885
+  vertex -0.625846 -0.130479 0.219151
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.625955 -0.199589 0.12867
+  vertex -0.54838 -0.199256 0.218885
+  vertex -0.606459 -0.193197 0.208646
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.625585 -0.07487 0.094319
+  vertex -0.625846 -0.130479 0.219151
+  vertex -0.582792 -0.07487 0.218441
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.625585 -0.07487 0.094319
+  vertex -0.582792 -0.07487 0.218441
+  vertex -0.621808 -0.073951 0.007122
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.591337 -0.198993 0.008675
+  vertex -0.621808 -0.073951 0.007122
+  vertex -0.582792 -0.198993 0.008675
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.625585 -0.083437 0.008675
+  vertex -0.621808 -0.073951 0.007122
+  vertex -0.591337 -0.198993 0.008675
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.625585 -0.083437 0.008675
+  vertex -0.591337 -0.198993 0.008675
+  vertex -0.625955 -0.199589 0.12867
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.625955 -0.199589 0.12867
+  vertex -0.625846 -0.130479 0.219151
+  vertex -0.625585 -0.07487 0.094319
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.625955 -0.199589 0.12867
+  vertex -0.625585 -0.07487 0.094319
+  vertex -0.625585 -0.083437 0.008675
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.625585 -0.083437 0.008675
+  vertex -0.625585 -0.07487 0.094319
+  vertex -0.621808 -0.073951 0.007122
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.548543 -0.186149 0.218441
+  vertex -0.582792 -0.07487 0.218441
+  vertex -0.54838 -0.199256 0.218885
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.548543 -0.186149 0.218441
+  vertex -0.54838 -0.199256 0.218885
+  vertex -0.582792 -0.198993 0.008675
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.617017 -0.07916 0.008675
+  vertex -0.621808 -0.073951 0.007122
+  vertex -0.582792 -0.07487 0.218441
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.617017 -0.07916 0.008675
+  vertex -0.582792 -0.07487 0.218441
+  vertex -0.548543 -0.186149 0.218441
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.617017 -0.07916 0.008675
+  vertex -0.548543 -0.186149 0.218441
+  vertex -0.582792 -0.198993 0.008675
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.617017 -0.07916 0.008675
+  vertex -0.582792 -0.198993 0.008675
+  vertex -0.621808 -0.073951 0.007122
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.622225 -0.154506 0.209294
+  vertex -0.625846 -0.130479 0.219151
+  vertex -0.625955 -0.199589 0.12867
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.622225 -0.154506 0.209294
+  vertex -0.625955 -0.199589 0.12867
+  vertex -0.606459 -0.193197 0.208646
+  endloop
+ endfacet
+
+ facet normal -nan -nan -nan
+  outer loop
+  vertex -0.622225 -0.154506 0.209294
+  vertex -0.606459 -0.193197 0.208646
+  vertex -0.625846 -0.130479 0.219151
+  endloop
+ endfacet
+
+endsolid AssimpScene
