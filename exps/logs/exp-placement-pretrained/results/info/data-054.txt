@@ -1,4 +1,0 @@
-cur_dir: ../data/offlinedata-placement-train_cat_test_shape/12055_Refrigerator_4_11
-pred: True
-gt: True
-result_loss: 0.004986

@@ -1,4 +1,0 @@
-cur_dir: ../data/offlinedata-placement-train_cat_test_shape/29557_Table_3_1
-pred: True
-gt: True
-result_loss: 0.005764

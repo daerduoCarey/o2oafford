@@ -1,4 +1,0 @@
-[env::load_object] loaded: {'name': 'table', 'shape_id': '35059', 'fix_root_link': True, 'state': 'random-closed-middle', 'init_x': 0, 'init_y': 0, 'init_z': 0, 'init_quat': [1, 0, 0, 0], 'joint_angles': [-0.0]}
-[env::load_object] loaded: {'name': 'object', 'shape_id': '200516', 'fix_root_link': False, 'state': 'locked', 'init_z': 0.16035768331683853, 'init_x': 0.05101754305940766, 'init_y': 0.36583101598272183, 'init_scale': 0.1520238660810262, 'init_quat': [0.3969985789269732, 0.0, 0.0, 0.917819224210282], 'joint_angles': []}
-[FAIL] collision at start!
-

@@ -1,4 +1,0 @@
-cur_dir: ../data/offlinedata-placement-train_cat_test_shape/103776_WashingMachine_0_20
-pred: True
-gt: True
-result_loss: 0.015764
