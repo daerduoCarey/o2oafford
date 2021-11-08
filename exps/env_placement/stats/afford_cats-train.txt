@@ -1,1 +1,4 @@
+Refrigerator
 StorageFurniture
+Table
+WashingMachine

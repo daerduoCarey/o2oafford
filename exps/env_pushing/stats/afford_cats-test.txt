@@ -1,1 +1,4 @@
+Bucket
 Kettle
+Jar
+Dispenser

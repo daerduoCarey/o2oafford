@@ -1,1 +1,8 @@
+Box
+KitchenPot
+TrashCan
+Bottle
+Basket
+Bowl
+Mug
 Can

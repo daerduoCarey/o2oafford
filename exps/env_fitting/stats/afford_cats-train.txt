@@ -1,1 +1,3 @@
+Refrigerator
 Table
+WashingMachine
