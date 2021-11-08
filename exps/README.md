@@ -2,16 +2,14 @@
 
 ## Before Start
 
-To train the models, please first go to the `../data` folder and download the simulation assets and a small subset of interaction data for trying the code. 
+To train the models, please first go to the `../data` folder and download the simulation assets/small-data/others.
 
-Notice that we only provide a small subset of interaction data samples for you to try the code.
-This amount of data is sufficient to show our data generation process, visualize the four task environments we use in the paper, and test over our pre-trained models.
-However, this amount of data is definitely not enough for a successful training.
 Please follow the instruction below to generate large-scale data for training models from scratch.
 
-To test over the pretrained models, please also go to the `logs` folder and download the pretrained checkpoints.
+To test over the pretrained models, please also go to the `./logs` folder and download the pretrained checkpoints.
+We also provided a small subset of data under `./data/smalldata-placement`for you to test the pre-trained models.
 
-Please fill in [this form]() to download all resources.
+Please fill in [this form](https://docs.google.com/forms/d/e/1FAIpQLSd7_Nqti_La1ROYjpjL8D-lkluIlswu2GJlnv_j3KyCcnMoYw/viewform?usp=sf_link) to download all resources.
 
 ## Dependencies
 
@@ -48,9 +46,9 @@ Other dependencies (install via pip) are: NumPy, H5py, matplotlib, pillow, progr
 ## Code Structure
 
 The main directory includes:
-1) `data` stores the SAPIEN shape data and the collected interaction trial data.
+1) `data` stores the SAPIEN shape data and the collected interaction data.
 2) `exps` contains all code implementation, as well as training and test scripts, logs (containing pretrained checkpoints and some result visualization), results, etc.
-3) `stats` contains necessary setting files specifying the data statistics to use to run experiments over the released small set of data.
+3) `stats` contains necessary setting files specifying the data statistics to use to run the experiments.
 
 
 ### To visualize the task environment and try to collect one data
@@ -65,7 +63,7 @@ To collect one data, go to the `exps` directory and run
 Change to other environments for other tasks.
 This script will store a collected interaction data record at `results/env_placement/40147_StorageFurniture_0_0`.
 
-After generating the data you can run the followig to replay this data
+After generating the data you can run the following to replay this data
 
     python env_placement/replay_data.py results/env_placement/40147_StorageFurniture_0_0/
 
